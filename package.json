@@ -1,0 +1,50 @@
+{
+  "name": "grunt-strip-json-comments",
+  "version": "0.0.0",
+  "description": "Strip comments from JSON. Lets you use comments in your JSON files!",
+  "keywords": [
+    "gruntplugin",
+    "json",
+    "strip",
+    "remove",
+    "delete",
+    "trim",
+    "comments",
+    "multiline",
+    "parse",
+    "config",
+    "configuration",
+    "conf",
+    "settings",
+    "util",
+    "env",
+    "environment"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "files": [
+    "tasks/strip-json-comments.js"
+  ],
+  "repository": "sindresorhus/grunt-strip-json-comments",
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "strip-json-comments": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
