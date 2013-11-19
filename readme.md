@@ -38,10 +38,10 @@ grunt.loadNpmTasks('grunt-strip-json-comments');
 
 ```js
 grunt.initConfig({
-	stripJsonComments: {							// Task
-		dist: {										// Target
-			files: {								// Dictionary of files
-				'dist/file.json': 'src/file.json'	// 'destination': 'source'
+	stripJsonComments: {								// Task
+		dist: {											// Target
+			files: {									// Dictionary of files
+				'without.json': 'with-comments.json'	// 'destination': 'source'
 			}
 		}
 	}
