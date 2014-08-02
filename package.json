@@ -34,12 +34,12 @@
     "test": "grunt"
   },
   "dependencies": {
-    "strip-json-comments": "~0.1.1"
+    "strip-json-comments": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-simple-mocha": "~0.4.0",
-    "grunt-contrib-clean": "~0.5.0"
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-simple-mocha": "~0.4.0"
   },
   "peerDependencies": {
     "grunt": "~0.4.0"
