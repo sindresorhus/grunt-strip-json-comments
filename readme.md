@@ -14,40 +14,28 @@ This is now possible:
 ```
 
 
-## Getting Started
-
-If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
+## Install
 
 ```sh
 $ npm install --save-dev grunt-strip-json-comments
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+
+## Usage
 
 ```js
-grunt.loadNpmTasks('grunt-strip-json-comments');
-```
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
 
-*Tip: the [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks) module makes it easier to load multiple grunt tasks.*
-
-[grunt]: http://gruntjs.com
-[Getting Started]: http://gruntjs.com/getting-started
-
-
-## Example config
-
-```js
 grunt.initConfig({
-	stripJsonComments: {								// Task
-		dist: {											// Target
-			files: {									// Dictionary of files
-				'without.json': 'with-comments.json'	// 'destination': 'source'
+	stripJsonComments: {
+		dist: {
+			files: {
+				'without.json': 'with-comments.json'
 			}
 		}
 	}
 });
 
-grunt.loadNpmTasks('grunt-strip-json-comments');
 grunt.registerTask('default', ['stripJsonComments']);
 ```
 
