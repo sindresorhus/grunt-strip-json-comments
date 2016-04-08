@@ -16,7 +16,7 @@ This is now possible:
 
 ## Install
 
-```sh
+```
 $ npm install --save-dev grunt-strip-json-comments
 ```
 
@@ -42,4 +42,4 @@ grunt.registerTask('default', ['stripJsonComments']);
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
