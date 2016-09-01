@@ -29,6 +29,9 @@ require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
 grunt.initConfig({
 	stripJsonComments: {
 		dist: {
+			options: {
+				whitespace: true
+			},
 			files: {
 				'without.json': 'with-comments.json'
 			}

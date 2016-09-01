@@ -6,6 +6,14 @@ module.exports = function (grunt) {
 				files: {
 					'test/tmp/stripped.json': 'test/fixture/original.json'
 				}
+			},
+			nowhitespace: {
+				files: {
+					'test/tmp/nowhitespace.json': 'test/fixture/nowhitespace.json'
+				},
+				options: {
+					whitespace: false
+				}
 			}
 		},
 		simplemocha: {
