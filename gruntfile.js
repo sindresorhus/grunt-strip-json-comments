@@ -9,7 +9,7 @@ module.exports = function (grunt) {
 			},
 			nowhitespace: {
 				files: {
-					'test/tmp/nowhitespace.json': 'test/fixture/nowhitespace.json'
+					'test/tmp/no-whitespace.json': 'test/fixture/no-whitespace.json'
 				},
 				options: {
 					whitespace: false

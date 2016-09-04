@@ -43,6 +43,11 @@ grunt.registerTask('default', ['stripJsonComments']);
 ```
 
 
+## Options
+
+See the `strip-json-comments` [options](https://github.com/sindresorhus/strip-json-comments#options).
+
+
 ## License
 
 MIT © [Sindre Sorhus](https://sindresorhus.com)

@@ -10,7 +10,7 @@ it('should strip JSON comments', function () {
 });
 
 it('should strip JSON comments and whitespace', function () {
-	var actual = grunt.file.read('test/tmp/nowhitespace.json');
-	var expected = grunt.file.read('test/fixture/nowhitespace.json');
+	var actual = grunt.file.read('test/tmp/no-whitespace.json');
+	var expected = grunt.file.read('test/fixture/no-whitespace.json');
 	assert.equal(actual, expected);
 });
