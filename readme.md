@@ -1,4 +1,4 @@
-# grunt-strip-json-comments [![Build Status](https://travis-ci.org/sindresorhus/grunt-strip-json-comments.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-strip-json-comments)
+# grunt-strip-json-comments
 
 > Strip comments from JSON. Lets you use comments in your JSON files!
 
